@@ -1,6 +1,7 @@
 import datetime
 import csv
 
+
 file = open("guns.csv","r")
 
 data = list(csv.reader(file))
